@@ -1,0 +1,10 @@
+{
+    "name": "vartotojas/php",
+    "authors": [
+        {
+            "name": "grantas33",
+            "email": "grantas0612@gmail.com"
+        }
+    ],
+    "require": {}
+}
