@@ -22,12 +22,8 @@
                 <?php echo $content ?>
             </div>
             
-            <div id="sidebar">
-                
-            </div>
-            
             <footer id="footer">
-                <p> Made by grantas33. </p>
+                 Made by grantas33.
             </footer>
                  
     </body>

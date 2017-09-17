@@ -61,6 +61,7 @@ class SmoothieController {
     }
     
     function CreateOrderTable(){
+        $counter = 1;
         $result = "
             <table class='orderTable'>
                 <tr>
@@ -75,14 +76,14 @@ class SmoothieController {
         foreach($smoothieOrders as $key => $value){
             $result = $result.
                     "<tr>
-                        <td>$value->id</td>
+                        <td>".$counter++."</td>
                         <td>$value->name</td>
                         <td>$value->quantity</td>
                         <td>$value->ordername</td>
                         <td>$value->orderadress</td>
                         <td>$value->price</td>
                     </tr>";}
-       $result = $result. "</table";   
+       $result = $result. "</table>";   
        return $result;
     }
 }

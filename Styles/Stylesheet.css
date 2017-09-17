@@ -10,6 +10,16 @@ body p
     line-height: 1.28;
 }
 
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: justify
+}
+
 #wrapper
 {
     width: 1360px;
@@ -28,17 +38,8 @@ body p
 #content_area
 {
     float: none;
-    width: 750px;
-    margin: 20px 0 0 0;
-    padding: 10px;
-}
-
-#sidebar
-{
-    float: right;
-    width: 250px;
-    height: 800px;
-    margin: 20px 10px;
+    width: 50%;
+    margin: auto;
     padding: 10px;
 }
 
@@ -46,10 +47,10 @@ footer
 {
 /*    background-repeat: no-repeat;*/
     background-size: 50% auto;
-    clear: both;
     height: 100px;
     padding: 10px;
     text-align: center;
+    font-size: 12px;
     color: #fff;
     text-shadow: 0.1em 0.1em #333;
     background-image: url(../Images/smoothies_many.jpg);
@@ -117,7 +118,8 @@ label
 
 .orderTable
 {
-    width: 700px;
+    width: 100%;
+    padding: 30px;
 }
 
 .orderTable tr
